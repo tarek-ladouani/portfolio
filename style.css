@@ -902,23 +902,19 @@ footer p {
     stroke: currentColor;
 }
 
-/* Projekt-Icons */
+/* Projekt-Icons – schwarz, zentriert, über dem Titel */
 .project-icon {
-    width: 52px;
-    height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--accent-soft);
-    border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .project-icon [data-lucide] {
-    width: 26px;
-    height: 26px;
-    stroke: var(--accent);
-    stroke-width: 2;
+    width: 32px;
+    height: 32px;
+    stroke: #111827;
+    stroke-width: 1.8;
 }
 
 /* Download-Icons */
