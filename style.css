@@ -884,3 +884,55 @@ footer p {
     border: 1px solid var(--border);
     background: #1a1a1a;
 }
+/* ---------- Lucide Icons ---------- */
+[data-lucide] {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2;
+    vertical-align: middle;
+    display: inline-block;
+    stroke: currentColor;
+}
+
+/* Projekt-Icons */
+.project-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-soft);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project-icon [data-lucide] {
+    width: 26px;
+    height: 26px;
+    stroke: var(--accent);
+    stroke-width: 2;
+}
+
+/* Download-Icons */
+.download-icon [data-lucide] {
+    width: 24px;
+    height: 24px;
+    stroke: var(--accent);
+    stroke-width: 2;
+}
+
+.download-action [data-lucide] {
+    width: 20px;
+    height: 20px;
+    stroke: var(--accent);
+    stroke-width: 2.5;
+}
+
+/* Kontakt-Icons */
+.contact-label [data-lucide] {
+    width: 16px;
+    height: 16px;
+    stroke: var(--text-muted);
+    margin-right: 6px;
+    stroke-width: 2;
+}
