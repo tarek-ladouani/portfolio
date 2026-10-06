@@ -300,28 +300,24 @@ section h2 {
 }
 
 /* Projekt-Titel mit Nummer */
+/* Projekt-Titel mit Nummer */
 .project-title {
-    display: flex;
-    align-items: baseline;
-    gap: 12px;
     font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: -0.01em;
-    line-height: 1.4;
+    line-height: 1.45;
     margin-bottom: 12px;
     color: var(--text);
-    flex-wrap: wrap;
 }
 
 .project-number {
     font-family: 'JetBrains Mono', 'Fira Code', monospace;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 700;
     color: var(--accent);
     letter-spacing: 0.05em;
-    flex-shrink: 0;
-    position: relative;
-    top: -2px;
+    margin-right: 8px;
+    display: inline;
 }
 
 .project-card p {
