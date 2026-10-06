@@ -299,21 +299,29 @@ section h2 {
     transform: translateY(-2px);
 }
 
-.project-number {
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: var(--accent);
-    letter-spacing: 0.1em;
-    margin-bottom: 16px;
-}
-
-.project-card h3 {
+/* Projekt-Titel mit Nummer */
+.project-title {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
     font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: -0.01em;
+    line-height: 1.4;
     margin-bottom: 12px;
     color: var(--text);
-    line-height: 1.4;
+    flex-wrap: wrap;
+}
+
+.project-number {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    flex-shrink: 0;
+    position: relative;
+    top: -2px;
 }
 
 .project-card p {
@@ -463,6 +471,7 @@ footer p {
         padding: 24px;
     }
 }
+
 /* ---------- Projekt-Detailseiten ---------- */
 .project-detail {
     padding: 80px 0 140px;
@@ -752,6 +761,7 @@ footer p {
         font-size: 1rem;
     }
 }
+
 /* ---------- Downloads ---------- */
 .downloads-grid {
     display: grid;
@@ -855,6 +865,7 @@ footer p {
         font-size: 0.8rem;
     }
 }
+
 /* ---------- Bilder in Projekten ---------- */
 .project-image {
     width: 100%;
@@ -884,6 +895,7 @@ footer p {
     border: 1px solid var(--border);
     background: #1a1a1a;
 }
+
 /* ---------- Lucide Icons ---------- */
 [data-lucide] {
     width: 18px;
