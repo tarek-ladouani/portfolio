@@ -59,11 +59,11 @@ nav .container {
 }
 
 .logo {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--text);
     text-decoration: none;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
 }
 
 .nav-links {
